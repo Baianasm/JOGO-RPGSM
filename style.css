@@ -19,6 +19,7 @@ body {
     justify-content: center;
     align-items: flex-start;
 }
+
 /* ===================================
    CONTAINER PRINCIPAL DO JOGO
    =================================== */
@@ -34,6 +35,7 @@ body {
     backdrop-filter: blur(10px);
     animation: fadeIn 0.5s ease-in;
 }
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -57,6 +59,7 @@ h1 {
     font-size: 2em;
     letter-spacing: 2px;
 }
+
 /* ===================================
    MUNDO DO JOGO
    =================================== */
@@ -71,6 +74,7 @@ h1 {
     overflow: hidden;
     box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
 }
+
 /* ===================================
    PERSONAGEM DO JOGADOR
    =================================== */
@@ -132,6 +136,7 @@ h1 {
         transform: translateY(-5px);
     }
 }
+
 [id^="item-"]::after {
     content: '';
     position: absolute;
@@ -219,6 +224,7 @@ h1 {
 /* ===================================
    INVENTÁRIO
    =================================== */
+
 #inventory-panel {
     margin-top: 15px;
     padding: 12px;
@@ -276,3 +282,14 @@ h1 {
         height: 32px;
     }
 }
+
+
+
+
+
+
+
+
+ 
+
+  
